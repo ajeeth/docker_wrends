@@ -1,6 +1,6 @@
 # Docker Wren:DS
 
-####This docker container provides [Wren:DS](https://github.com/WrenSecurity/wrends) server running on CentOS 7.
+#### This docker container provides [Wren:DS](https://github.com/WrenSecurity/wrends) server running on CentOS 7.
 To *quickstart* the container execute:
 
 ```bash
