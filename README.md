@@ -5,7 +5,6 @@ To *quickstart* the container execute:
 
 ```bash
 mkdir -p /opt/docker/wrends
-
 docker run -d -p 1389:1389 -p 1636:1636 -p 4444:4444 -v /opt/docker/wrends:/opt/wrends -v /etc/localtime:/etc/localtime:ro ajeeth/wrends:latest
 ```
 
@@ -19,7 +18,7 @@ These  values can be changed by passing your setting with the following environm
 - `LDAP_ROOT_PASS`
 
 Example with different _base DN_ and _root password_:
-```bash
+```
 docker run -d -p 1389:1389 -p 1636:1636 -p 4444:4444 -v /opt/docker/wrends:/opt/wrends -v /etc/localtime:/etc/localtime:ro -e LDAP_BASE_DN='dc=mydomain.org' -e LDAP_ROOT_PASS='justapass'  ajeeth/wrends:latest
 ```
 
