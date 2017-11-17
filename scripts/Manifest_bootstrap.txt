@@ -1,0 +1,15 @@
+Class-Path: WrenDS.jar WrenDS_ca_ES.jar WrenDS_es.jar WrenDS_de.ja
+ r WrenDS_fr.jar WrenDS_ja.jar WrenDS_ko.jar WrenDS_pl.jar WrenDS
+ _zh_CN.jar WrenDS_zh_TW.jar activation.jar chf-http-core.jar chf-htt
+ p-servlet.jar forgerock-audit-core.jar forgerock-audit-handler-csv.ja
+ r forgerock-audit-handler-jdbc.jar forgerock-audit-handler-syslog.jar
+  forgerock-audit-json.jar forgerock-persistit-core.jar forgerock-util
+ .jar grizzly-framework.jar grizzly-http-server.jar grizzly-http-servl
+ et.jar grizzly-http.jar i18n-core.jar i18n-slf4j.jar jackson-annotati
+ ons.jar jackson-core.jar jackson-databind.jar jackson-module-jsonSche
+ ma.jar javax.mail.jar javax.servlet-api.jar je.jar joda-time.jar json
+ -resource-http.jar json-resource.jar opendj-cli.jar opendj-config.jar
+  opendj-core.jar opendj-grizzly.jar opendj-rest2ldap.jar opendj-serve
+ r.jar org.apache.servicemix.bundles.javax-inject.jar slf4j-api.jar su
+ per-csv.jar validation-api.jar opendj-slf4j-adapter.jar opendj-je-bac
+ kend.jar
