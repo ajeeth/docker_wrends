@@ -1,13 +1,14 @@
 # Docker Wren:DS
 
-<br>
 ####This docker container provides [Wren:DS](https://github.com/WrenSecurity/wrends) server running on CentOS 7.
 To *quickstart* the container execute:
+
 ```bash
 mkdir -p /opt/docker/wrends
 
 docker run -d -p 1389:1389 -p 1636:1636 -p 4444:4444 -v /opt/docker/wrends:/opt/wrends -v /etc/localtime:/etc/localtime:ro ajeeth/wrends:latest
 ```
+
 Once the container is running, launch the control-panel (`/opt/docker/wrends/bin/control-panel`) and connect to Wren:DS on port 4444. 
 
 Default *base DN* is `dc=example,dc=com`, *root DN* is `cn=Directory Manager` and *root password* is `changemefirst`.
